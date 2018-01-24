@@ -45,6 +45,11 @@ img.connect {
 	border: 1px solid #aaa8b1;
 }
 
+.card-img {
+    height: 200px;
+    width: 320px;
+}
+
 .headerAbout {
 	color: #998e7b;
 	font-weight: bold;
@@ -66,7 +71,7 @@ img.connect {
 .portfolioBar {
 	background-color: #b3c8e7;
 	text-align: center;
-	color: #c3ad46; 
+	color: #c3ad46;
 	margin-top: 125px;
 	line-height: 40px;
 }
