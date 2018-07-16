@@ -12,4 +12,4 @@ A basic portfolio with a sticky footer that is mobile responsive.
 ### Challenges
 My biggest challenge with this project was getting the footer to stay at the bottom (sticky footer).
 
-[Portfolio](https://kumarivb.github.io/)
+(https://kumarivb.github.io/)
