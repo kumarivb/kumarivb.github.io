@@ -2,71 +2,66 @@
 <html lang="en-us">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Bootstrap Portfolio</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-
-	<title>Bootstrap Portfolio</title>
 </head>
 
 <body>
-
-	<nav class="navbar navbar-expand-lg navbar-light bg-white">
-		<div class="container">
-  			<a class="navbar-brand siteHeader" href="index.html"><h1 class="bigYtext">Kumari</h1></a>
-  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    				<span class="navbar-toggler-icon"></span>
-  				</button>
-		  	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		    	<div class="navbar-nav ml-auto">
-		      		<a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a><span class="seperator">|</span>
-		      		<a class="nav-item nav-link" href="portfolio.html">Portfolio</a><span class="seperator">|</span>
-		      		<a class="nav-item nav-link" href="contact.html">Contact</a>
-		    	</div>
-		  	</div>
-		</div>
-	</nav>	
-
-	<div class="container aboutContent">
-		<div class="row">
-
-			<div class="col-md-8">
-				<div class="card">
-					<div class="card-body">
-						<h3 class="card-title headerAbout">About Me</h3>
-						<hr class="my-4">
-						<p class="card-text"><img class="img-fluid float-md-left rounded mr-3" src="assets/images/sloth.jpg" alt="Kumari">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio provident tempora amet, eveniet et, eum illum, culpa laborum dicta recusandae magni architecto. Illo saepe facilis, unde. Debitis, atque, doloremque?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum perferendis voluptates error ullam placeat repellendus. Repellendus error repellat veritatis recusandae voluptates earum rerum consectetur itaque, ipsam nihil. Alias, nemo.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ratione sint ex porro excepturi non dolorum, ullam ea quae vel earum, soluta obcaecati natus. Eligendi iusto accusantium mollitia debitis assumenda!</p>
+	<div class="wrapper">
+		<nav class="navbar navbar-expand-lg navbar-light bg-white">
+			<div class="container">
+				<a class="navbar-brand siteHeader" href="index.html"><h1 class="bigYtext">Kumari</h1></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ml-auto">
+						<a class="nav-item nav-link" href="portfolio.html">Portfolio</a><span class="seperator">|</span>
+						<a class="nav-item nav-link" href="contact.html">Contact</a>
 					</div>
 				</div>
 			</div>
+		</nav>	
 
-			<div class="col-md-4">
-				<div class="card">
-					<div class="card-body pb-4" style="text-align: center;">
-						<h5 class="card-title headerConnect">Connect with Me</h5>
-						<hr class="my-4">
-						<p class="card-text">
-						<a href="https://kumarivb.github.io/bootstrap_portfolio/index.html" target="_blank"><img class="img-fluid connect rounded" src="assets/images/github.png" alt="Github"></a>
-						<a href="https://www.linkedin.com/in/kumarivb" target="_blank"><img class="img-fluid connect rounded" src="assets/images/linkedin.png" alt="LinkedIn"></a>
-						<a href="https://stackoverflow.com/cv/kumarivb" target="_blank"><img class="img-fluid connect rounded" src="assets/images/stackoverflow.png" alt="StackOverflow"></a>
-						</p>
+		<div class="container aboutContent">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title headerAbout">About Me</h3>
+							<hr class="my-4">
+							<p class="card-text"><img class="img-fluid float-md-left rounded mr-3" src="assets/images/sloth.jpg" alt="Kumari">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio provident tempora amet, eveniet et, eum illum, culpa laborum dicta recusandae magni architecto. Illo saepe facilis, unde. Debitis, atque, doloremque?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum perferendis voluptates error ullam placeat repellendus. Repellendus error repellat veritatis recusandae voluptates earum rerum consectetur itaque, ipsam nihil. Alias, nemo.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ratione sint ex porro excepturi non dolorum, ullam ea quae vel earum, soluta obcaecati natus. Eligendi iusto accusantium mollitia debitis assumenda!</p>
+						</div>
 					</div>
-				</div>	
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-body pb-4" style="text-align: center;">
+							<h5 class="card-title headerConnect">Connect with Me</h5>
+							<hr class="my-4">
+							<p class="card-text">
+							<a href="https://github.com/kumarivb" target="_blank"><img class="img-fluid connect rounded" src="assets/images/github.png" alt="Github"></a>
+							<a href="https://www.linkedin.com/in/kumarivb" target="_blank"><img class="img-fluid connect rounded" src="assets/images/linkedin.png" alt="LinkedIn"></a>
+							<a href="https://stackoverflow.com/cv/kumarivb" target="_blank"><img class="img-fluid connect rounded" src="assets/images/stackoverflow.png" alt="StackOverflow"></a>
+							</p>
+						</div>
+					</div>
+				</div>					
 			</div>
-	
-			<div class="push"></div>
-
 		</div>
-	</div>
-
+		<div class="push"></div>		
+	</div>	
+	
 	<footer>
 		<div class="container containFooter">
 			<p class="copyright">Copyright &copy; 2017 Kumari</p>
-	  	</div>
-	</footer>
-
+		</div>
+	</footer>										
 </body>
 
 </html>
