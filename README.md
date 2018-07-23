@@ -3,6 +3,9 @@
 ### Description
 A basic portfolio with a sticky footer that is mobile responsive.
 
+### New Skills
+* Media queries
+
 ### Technologies
 * HTML
 * Git/GitHub
