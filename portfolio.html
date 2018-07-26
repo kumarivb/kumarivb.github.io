@@ -2,9 +2,7 @@
 <html lang="en-us">
 <head>
 	<meta charset="UTF-8">
-
 	<title>Bootstrap Portfolio</title>
-
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
@@ -12,6 +10,7 @@
 
 <body>
 	<div class="wrapper">
+		<!-- START NAV -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-white">
 			<div class="container">
 				<a class="navbar-brand siteHeader" href="index.html"><h1 class="bigYtext">Kumari</h1></a>
@@ -25,19 +24,21 @@
 					</div>
 				</div>
 			</div>
-		</nav>	
+		</nav>
+		<!-- END NAV -->
 		
+		<!-- START MAIN CONTAINER -->
 		<div class="container portfolioContent">
 			<div class="row">
+				<!-- START MAIN CONTENT -->
 				<div class="col-md-8">
 					<div class="card">
 						<div class="card-body">
 							<h3 class="card-title headerPortfolio">Portfolio</h3>
 							<hr class="my-4">
-							<!-- columns here -->
 							<div class="container">
 								<div class="row">
-									<!-- ROW 1 -->
+									<!-- START COL 1 -->
 									<div class="col-md-6">
 										<div class="card bg-dark text-white mb-4 portolioCard">
 											<a href="https://kumarivb.github.io/stmfd/" target="_blank">
@@ -72,8 +73,9 @@
 											</a>
 										</div>										 								
 									</div>
-									<!-- END ROW 1 -->
-									<!-- ROW 2 -->
+									<!-- END COL 1 -->
+
+									<!-- START COL 2 -->
 									<div class="col-md-6">										
 										<div class="card bg-dark text-white mb-4 portolioCard">
 											<a href="https://kumarivb.github.io/hangCLI/" target="_blank">
@@ -108,13 +110,15 @@
 											</a>
 										</div>
 									</div>
-									<!-- END ROW 2 -->
+									<!-- END COL 2 -->
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<!-- END MAIN CONTENT -->
 
+				<!-- START SIDEBAR -->
 				<div class="col-md-4">
 					<div class="card">
 						<div class="card-body pb-4" style="text-align: center;">
@@ -127,17 +131,22 @@
 							</p>
 						</div>
 					</div>
-				</div>				
+				</div>
+				<!-- END SIDEBAR -->				
 			</div>			
 		</div>
+		<!-- END MAIN CONTAINER -->
+
 		<div class="push"></div>
 	</div>
 
+	<!-- START FOOTER -->
 	<footer>
 		<div class="container containFooter">
 			<p class="copyright">Copyright &copy; 2017 Kumari</p>
 		</div>
-	</footer>										
-</body>
+	</footer>
+	<!-- END FOOTER -->										
 
+</body>
 </html>

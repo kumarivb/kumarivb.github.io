@@ -61,8 +61,7 @@ a.active {
 }
 
 .aboutContent {
-	width: 100%;
-	max-width: 960px;
+
 	margin: 0 auto;
 	clear: both;
 }
@@ -141,7 +140,6 @@ a.active {
 
 footer {
   padding: 30px 0;
-
   clear: both;
   font-size: 12px;
   color: #fff;
